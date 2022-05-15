@@ -61,7 +61,7 @@ public class StartApp {
 			}
 		} catch (FileNotFoundException e) {//na funcao anterior a esta, ja tem um tratamento para isso
 			// TODO: handle exception
-			System.out.println("File not found, shounen");
+			System.out.println("File not found.");
 		}
 		return fileContent;
 		
